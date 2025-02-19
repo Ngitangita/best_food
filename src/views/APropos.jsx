@@ -1,6 +1,7 @@
 import Boutton from "../Components/ui/Boutton";
 import style from "../Components/css/aPropos.module.css";
 import Comments from "./Comments";
+import imgAboutUs from "../../src/assets/img-about-us.png"
 
 export default function APropos() {
   return (
@@ -12,7 +13,7 @@ export default function APropos() {
         </div>
         <div className={style.a_propos}>
           <div className={style.images}>
-            <img src="./images/img-about-us.png" alt="img-about-us.png" />
+            <img src={imgAboutUs} alt="img-about-us.png" />
           </div>
           <div className={style.APropos}>
             <h1>Best Food in The Word</h1>
@@ -28,9 +29,9 @@ export default function APropos() {
               eaque accusamus minus sunt, eligendi nisi officiis quis vitae
               dignissimos officia.
             </p>
-            <Boutton className={style.boutton}>
-              <a href="#">Learn More</a>
-            </Boutton>
+            <a href="#"> <Boutton className={style.boutton}>
+             Learn More
+            </Boutton></a>
           </div>
         </div>
       </section>

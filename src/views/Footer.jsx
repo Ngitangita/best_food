@@ -1,4 +1,8 @@
 import style from "../Components/css/footer.module.css";
+import clock from "../../src/assets/clock.png"
+import pin from "../../src/assets/pin.png"
+import email from "../../src/assets/email.png"
+import call from "../../src/assets/call.png"
 
 function Footer() {
   return (
@@ -6,7 +10,7 @@ function Footer() {
       <div className={style.footer}>
         <div className={style.media}>
           <div className={style.image}>
-            <img src="./images/clock.png" alt="clock.png" />
+            <img src={clock} alt="clock.png" />
           </div>
           <div className={style.info}>
             <strong>Ouverture</strong>
@@ -18,7 +22,7 @@ function Footer() {
         </div>
         <div className={style.media}>
           <div className={style.image}>
-            <img src="./images/pin.png" alt="pin.png" />
+            <img src={pin} alt="pin.png" />
           </div>
           <div className={style.info}>
             <strong>Adresses</strong>
@@ -30,7 +34,7 @@ function Footer() {
         </div>
         <div className={style.media}>
           <div className={style.image}>
-            <img src="./images/email.png" alt="email.png" />
+            <img src={email} alt="email.png" />
           </div>
           <div className={style.info}>
             <strong>Emails</strong>
@@ -42,7 +46,7 @@ function Footer() {
         </div>
         <div className={style.media}>
           <div className={style.image}>
-            <img src="./images/call.png" alt="call.png" />
+            <img src={call} alt="call.png" />
           </div>
           <div className={style.info}>
             <strong>Numbers</strong>

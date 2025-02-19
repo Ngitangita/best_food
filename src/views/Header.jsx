@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className={style.Header}>
         <h2>
-          Your<span>Dish</span>
+          <a href="#">Your<span>Dish</span></a>
         </h2>
         <ul>
           <li>

@@ -9,8 +9,8 @@ h2{text-transform: uppercase; color: #273E60;}
 .APropos{width: 70%; color: #999999;}
 .boutton{background-color: #27ae60; padding: 5px 10px; margin-top: 20px; cursor: pointer; border: none; width: 160px;
     border-radius: 5px;}
-    .boutton a{text-decoration: none; color: #ffffff; font-size: 15px; transition: 0.5s;}
-    .boutton:hover a{font-size: 16px;}
+   a .boutton{text-decoration: none; color: #ffffff; font-size: 15px; transition: 0.5s;}
+   a .boutton:hover {font-size: 16px;}
 .images{width: 40%;}
 img{width: 100%;}
 

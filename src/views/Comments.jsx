@@ -1,5 +1,6 @@
 
 import style from "../Components/css/comments.module.css";
+import img1 from "../../src/assets/img1.png"
 
 export default function Comments() {
   return (
@@ -10,7 +11,7 @@ export default function Comments() {
         <div className={style.CommentsAside}>
           <div className={style.images}>
             <div className={style.image}>
-            <img src="./images/img1.png" alt="img1.png" />
+                <img src={img1} alt="img1.png" />
             </div>
             <h5>Smith Johnson</h5>
           </div>
@@ -24,7 +25,7 @@ export default function Comments() {
         <div className={style.CommentsAside}>
           <div className={style.images}>
             <div className={style.image}>
-            <img src="./images/img1.png" alt="img1.png" />
+             <img src={img1} alt="img1.png" />
             </div>
             <h5>Smith Johnson</h5>
           </div>
@@ -38,7 +39,7 @@ export default function Comments() {
         <div className={style.CommentsAside}>
           <div className={style.images}>
             <div className={style.image}>
-            <img src="./images/img1.png" alt="img1.png" />
+                <img src={img1} alt="img1.png" />
             </div>
             <h5>Smith Johnson</h5>
           </div>

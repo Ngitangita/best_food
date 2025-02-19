@@ -2,7 +2,7 @@
 .Header{ display: flex; flex-direction: row; justify-content: space-between; align-items: center; background-color: #FFFFFF;
     box-shadow: 0 0 10px rgba(0,0,0,0.2); height: 50px; padding-left: 130px; padding-right: 130px; position: fixed; z-index: 10;
     top: 0; left: 0; right: 0;}
-.Header h2{color: #273E60;}
+.Header h2 a{color: #273E60; text-decoration: none;}
 .Header h2 span{color: #27AE60;}
 .Header ul{display: flex; flex-direction: row; gap: 25px; align-items: center;}
 .Header li{display: inline-block;}
